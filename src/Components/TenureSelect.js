@@ -20,11 +20,10 @@ const TenureSelect = ({ data, setData }) => {
         defaultValue={5}
         onChange={handleChange}
       >
-        <MenuItem value={5}>5 years</MenuItem>
         <MenuItem value={10}>10 years</MenuItem>
         <MenuItem value={15}>15 years</MenuItem>
-        <MenuItem value={20}>20 years</MenuItem>
         <MenuItem value={25}>25 years</MenuItem>
+        <MenuItem value={30}>30 years</MenuItem>
       </Select>
     </FormControl>
   );
